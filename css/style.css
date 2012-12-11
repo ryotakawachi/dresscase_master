@@ -1,7 +1,11 @@
 body{
 	margin: 0;
+	overflow: auto;
 }
-a {
+div#wrapper{
+	width: 100%;
+}
+a{
 	text-decoration: none;
 }
 /*a:active{
@@ -52,12 +56,6 @@ span#sign_up{
 
 span#log_in{
 	margin: 0 0 0 0;
-}
-
-
-div#wrapper{
-	width: 100%;
-	overflow: scroll;
 }
 
 
@@ -159,6 +157,18 @@ div#sub_contents{
 	width: 100%;
 	height: 177px;
 	background-color: #ffffff;
+}
+
+
+div#photo_reverse{
+	margin: 0;
+	position: relative; bottom: -220px;
+    -webkit-transform: scaleY(-1); /*以下画像反転のため*/
+    -o-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 
 
