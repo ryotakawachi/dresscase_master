@@ -2,9 +2,9 @@ body{
 	margin: 0;
 	overflow: auto;
 }
-div#wrapper{
+/*div#wrapper{
 	width: 100%;
-}
+}*/
 a{
 	text-decoration: none;
 }
@@ -94,7 +94,7 @@ p#demo{
 
 div#main_contents{
 	position: relative; left: 200px;
-	width: 100%;
+	width: auto;
 	height: 450px;
 	background-image: url("../image/main_back.png");/*勝手に繰り返し*/
 	background-color: #e0e0e0;
@@ -149,8 +149,8 @@ div#photo{
 
       
 div#sub_contents{
-	position: relative;left:200px;
-	width: 100%;
+	position: relative; left: 200px;
+	width: auto;
 	height: 177px;
 	background-color: #ffffff;
 }
