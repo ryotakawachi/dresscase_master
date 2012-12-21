@@ -1,9 +1,9 @@
 $(document).ready(function(){
-	$("#main_contents").hover(
+	$("#photo_wrapper").hover(
 		function(){
 			$(window).bind('mousewheel', function(event, delta){
-				var sl = $('#main_contents').scrollLeft();	
-				$('#main_contents').scrollLeft(sl-delta*3);
+				var sl = $('#photo_wrapper').scrollLeft();
+				$('#photo_wrapper').scrollLeft( sl - delta*3 );
 				return false;
 			});
 		},
