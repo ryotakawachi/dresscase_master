@@ -63,6 +63,7 @@ span#log_in{
 div#time_line{
 	margin: 0 0 0 0;
 	float: left;
+	position: absolute;
 	width:200px;
 	height: 630px;
 	background-image: url("../image/time_line_back.png");
@@ -71,7 +72,7 @@ div#time_line{
 
 div.time_line_bar{
 	color: white;
-	border-bottom: 2px solid #808080; 
+	border-bottom: 2px solid #808080;
 }
 
 
@@ -93,11 +94,14 @@ p#demo{
 
 
 div#main_contents{
-	position: relative; left: 200px;
+	position: relative;
+	margin-left: 200px;
 	width: auto;
 	height: 450px;
 	background-image: url("../image/main_back.png");/*勝手に繰り返し*/
 	background-color: #e0e0e0;
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 
 
@@ -136,6 +140,7 @@ div#photo{
 	float: left;
 	position: absolute; top: 50px;
 	z-index: 100;
+	width: 2400px;
 }
 
 
@@ -147,9 +152,10 @@ div#photo{
 	box-shadow:0 0 10px #555555;
 }
 
-      
+
 div#sub_contents{
-	position: relative; left: 200px;
+	position: relative;
+	margin-left: 200px;
 	width: auto;
 	height: 177px;
 	background-color: #ffffff;
@@ -165,7 +171,7 @@ div#photo_reverse{
 	-o-transform: scaleY(-1);
 	transform: scaleY(-1);
 	filter: flipV;
-	-ms-filter: "flipV"; 
+	-ms-filter: "flipV";
 }
 
 
