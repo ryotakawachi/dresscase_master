@@ -124,18 +124,18 @@ div#main_contents{
 }
 
 
-img.triangle_left{
-	margin: 120px 0 0 0;
+img.side_l{
+	margin: 0;
 	float: left;
-	position: absolute; left: 10px;
+	position: absolute; left: 0px;
 	z-index: 101;
 }
 
 
-img.triangle_right{
-	margin: 120px 0 0 0;
+img.side_r{
+	margin: 0;
 	float: right;
-	position: absolute; right: 10px;
+	position: absolute; right:0px;
 	z-index: 101;
 }
 
